@@ -4,6 +4,6 @@ module.exports = config => {
     template: 'react',
     outputDir: '.dist',
     ignore: /^\./,
-    skipTransform: /\.html$|\.toml$/
+    skipTransform: /\.html$|\.toml$|\.mp3$/
   }
 }
